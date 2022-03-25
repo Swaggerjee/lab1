@@ -18,3 +18,48 @@ h1 {
     color: #000000; 
     font-size: 20px;
 }
+
+#content {
+    padding:3px;
+}
+
+p {
+    padding: 10px 10px 10px 10px;
+}
+
+h1 {
+    padding: 10px 10px 10px 10px;
+}
+
+header {
+    padding: 10px 10px 10px 10px;
+}
+
+  #WPI  {
+    /*center the image*/
+    display: block; 
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main_nav ul { padding: 0; margin: 0; }
+
+#main_nav li  {
+  list-style-type: none; /* remove bullet points */ 
+}
+
+#main_nav li a {
+   display: block;
+   text-decoration: none; /* remove underline */
+   border-radius: 10px;  /* rounded corners */
+   margin: 6px;
+   padding: 9px;
+   color: #222;
+   font-weight: bold;
+
+   /* nice gradient shade on the buttons */
+   background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,1));
+
+   border: 1px solid #666; /* dark outline */
+}
